@@ -1,7 +1,7 @@
 {
   "name": "rd-stats-master",
   "version": "1.0.0",
-  "description": "statistics database for sport leagues",
+  "description": "statistics database app with fan pages",
   "main": "server.js",
   "directories": {
     "test": "test"
@@ -11,9 +11,9 @@
     "body-parser": "^1.18.2",
     "connect-flash": "^0.1.1",
     "express": "^4.16.2",
-    "express-handlebars": "^3.0.0",
-    "express-session": "^1.15.6",
     "express-validator": "^4.3.0",
+    "express-session": "^1.15.6",
+    "express-handlebars": "^3.0.0",
     "mysql2": "^1.4.2",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
@@ -27,18 +27,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbbyArsenic/RD-Stats-Master.git"
+    "url": "git+https://github.com/kkruel8100/RD-Stats-Master.git"
   },
   "keywords": [
-    "express",
-    "handlebars",
+    "node",
     "sequelize",
-    "node"
+    "express",
+    "passport",
+    "bcrypt",
+    "statistics",
+    "app"
   ],
   "author": "Group Awesome",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AbbyArsenic/RD-Stats-Master/issues"
+    "url": "https://github.com/kkruel8100/RD-Stats-Master/issues"
   },
-  "homepage": "https://github.com/AbbyArsenic/RD-Stats-Master#readme"
+  "homepage": "https://github.com/kkruel8100/RD-Stats-Master#readme"
 }
